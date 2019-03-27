@@ -42,7 +42,7 @@ lownoteprotection = {[-1]=9,[-2]=9,[-3]=8,[-4]=8,[-5]=7,[-6]=7,[-7]=6,[-8]=6,[-9
 
 function getUserParameters()
 	
-	retval,retvals_csv = reaper.GetUserInputs("Parameters", 9, "Stretch Notes,Pitch Notes,Include Dynamics,Low Note Protection (EXPERIMENTAL),Filter Channel 10,Transpose in semitones,Sort by pitch,Pitch bend (SINGLE CHANNEL ONLY),Bend Range", "true,true,true,true,true,0,true,false,2")
+	retval,retvals_csv = reaper.GetUserInputs("Parameters", 9, "Stretch Notes,Pitch Notes,Include Dynamics,Low Note Protection,Filter Channel 10,Transpose in semitones,Sort by pitch,Pitch bend (EXPERIMENTAL),Bend Range", "true,true,true,true,true,0,true,false,2")
 	local stretch=""
 	local pitch = ""
 	local dynamics = ""

@@ -25,5 +25,3 @@ Note: Channel 10 is filtered by default. This usually contains percussion instru
 __WARNING__: Only use the *Apply Pitchbends* feature on a single channel MIDI Take
   
 __WARNING__: You may not get the expected output if the script tries to "Squash" your sample too much, especially combined with a very low pitch. The *Low Note Protection* feature attempts to contain this problem but it is not a perfect solution
-
-testtest
